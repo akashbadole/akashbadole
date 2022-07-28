@@ -9,7 +9,37 @@ class Skill extends Component {
             <div>
                 <Header />
                 
-                Skill
+                <div className="container py-4">
+                    <div className="row">
+                        <h3 className='heading py-3'>My Skill</h3>
+                        <div className="col-md-12 py-3">
+                            <h4>Front End Development</h4>
+                            <ul>
+                                <li>HTML, CSS, Javascript </li>
+                            </ul>
+                        </div>
+
+                        <div className="col-md-12 py-3">
+                            <h4>Backend Development/CMS</h4>
+                            <ul>
+                                <li>Python, PHP, WordPress </li>
+                            </ul>
+                        </div>
+
+                        <div className="col-md-12 py-3">
+                            <h4>Framework</h4>
+                            <ul>
+                                <li>ReactJS, Django, Fastapi </li>
+                            </ul>
+                        </div>
+                        <div className="col-md-12 py-3">
+                            <h4>Other</h4>
+                            <ul>
+                                <li>AWS,GCP - Basic Knowledge, CPanel, DigitalOcean, Zendesk </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <Footer />
             </div>
         );

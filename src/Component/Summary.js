@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
 import Header from './Header';
+import Intro from './Intro';
 
 
 class Summary extends Component {
     render() {
         return (
             <div>
-               <Header />
-                
-               Summary
+                <Header />
+                <Intro />
                 <Footer />
             </div>
         );

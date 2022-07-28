@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
-  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .container {
@@ -17,4 +20,13 @@ body {
 
 .textJustify{
   text-align: justify;
+}
+
+footer{
+ /* position: fixed; */
+ bottom: 10px;
+}
+
+.MyName{
+  font-family: 'Pacifico', cursive;
 }

@@ -25,6 +25,7 @@ class Header extends Component {
                         <Link className="me-3 py-2 text-dark text-decoration-none" to="/Skill">Skill</Link>
                         <Link className="me-3 py-2 text-dark text-decoration-none" to="/Experience">Experience</Link>
                         <Link className="me-3 py-2 text-dark text-decoration-none" to="/Education">Education</Link>
+                        <Link className="me-3 py-2 text-dark text-decoration-none" to="/Blog">Blog</Link>
                         <Link className="me-3 py-2 text-dark text-decoration-none" to="/Contact">Contact</Link>
                     </nav>
                 </div>

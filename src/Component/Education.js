@@ -6,8 +6,9 @@ import Header from './Header';
 class Education extends Component {
     render() {
         return (
-            <div>
+            <>
                 <Header />
+                <div className='container py-4'>
                 <h3 className='heading py-3'>My Education</h3>
                 <div className="accordion accordion-flush" id="accordionFlushExample">
                     <div className="accordion-item">
@@ -41,9 +42,9 @@ class Education extends Component {
                         </div>
                     </div>
                 </div>
-
+                </div>
                 <Footer />
-            </div>
+            </>
         );
     }
 }

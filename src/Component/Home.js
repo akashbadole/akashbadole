@@ -28,7 +28,7 @@ class Home extends Component {
                         <div className="col-md-3">
                             <div className="card" >
                                 <div className="card-header">
-                                    Backend Development/CMS
+                                    Backend Dev./CMS
                                 </div>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item">Python</li>
@@ -42,7 +42,7 @@ class Home extends Component {
                         <div className="col-md-3">
                             <div className="card" >
                                 <div className="card-header">
-                                    Framework
+                                    Framework/Library
                                 </div>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item">ReactJS</li>
@@ -55,7 +55,7 @@ class Home extends Component {
                         <div className="col-md-3">
                             <div className="card" >
                                 <div className="card-header">
-                                    Other
+                                    Cloud Technology
                                 </div>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item">CPanel</li>

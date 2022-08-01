@@ -6,8 +6,9 @@ import Header from './Header';
 class Experience extends Component {
     render() {
         return (
-            <div>
+            <>
                 <Header />
+                <div className='container py-4'>
                 <h3 className='heading py-3'>My Experience</h3>
                 <div className="accordion accordion-flush" id="accordionFlushExample">
                     {/* 1 */}
@@ -138,8 +139,9 @@ class Experience extends Component {
                         </div>
                     </div>
                 </div>
+                </div>
                 <Footer />
-            </div>
+            </>
         );
     }
 }

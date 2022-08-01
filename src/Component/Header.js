@@ -21,37 +21,30 @@ class Header extends Component {
         return (
 
             <>
-                <header>
+                <header className='fluid-container'>
+                        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
+                            <div className='container'>
+                                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_akash" aria-controls="navbar_akash" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span className="navbar-toggler-icon"></span>
+                                </button>
+                                <Link to="/" className="navbar-brand my-2 rightnav">
+                                    Akash S Badole
+                                </Link>
+                                {this.state.links.map(link => {
+                                    return (
 
-                    <div className="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-                        <Link to="/" className="d-flex align-items-center text-dark text-decoration-none logo">
-                            Akash S Badole
-                        </Link>
-                        <nav className="d-inline-flex mt-2 mt-md-0 ms-md-auto" >
-
-
-                            {this.state.links.map(link => {
-                                return (
-
-                                    <Link className="me-3 py-2 text-dark text-decoration-none" key={link.id} to={link.path}>{link.pathName}</Link>
-
-                                )
-                            })}
-
-
-                            {/* 
-                            <Link className="me-3 py-2 text-dark text-decoration-none" to="/Summary">Summary</Link>
-                            <Link className="me-3 py-2 text-dark text-decoration-none" to="/Skill">Skill</Link>
-                            <Link className="me-3 py-2 text-dark text-decoration-none" to="/Experience">Experience</Link>
-                            <Link className="me-3 py-2 text-dark text-decoration-none" to="/Education">Education</Link>
-                            <Link className="me-3 py-2 text-dark text-decoration-none" to="/Blog">Blog</Link>
-                            <Link className="me-3 py-2 text-dark text-decoration-none" to="/Contact">Contact</Link>
-                        < */}
-
+                                        <div class="collapse navbar-collapse rightdir" id="navbar_akash" >
+                                             <ul class="navbar-nav me-auto mb-2 mb-lg-0" key={link.id}>
+                                             <li class="nav-item">
+                                             <Link class="nav-link active" aria-current="page" to={link.path}>{link.pathName}</Link>
+                                              </li>
+                                            </ul>
+                                        </div>
+                                    )
+                                })}
+                            </div>
                         </nav>
-                    </div>
-
-
+                    
                 </header>
             </>
         );

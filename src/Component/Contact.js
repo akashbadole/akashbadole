@@ -5,8 +5,9 @@ import Footer from './Footer';
 class Contact extends Component {
     render() {
         return (
-            <div>
+            <>
                 <Header />
+                <div className='container py-4'>
                 <p className='py-4'>
                     <a className="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
                        For Contact 
@@ -18,8 +19,9 @@ class Contact extends Component {
                        Please sent Email On badoleakash [at] Gmail.com
                     </div>
                 </div>
+                </div>
                 <Footer />
-            </div>
+            </>
         );
     }
 }

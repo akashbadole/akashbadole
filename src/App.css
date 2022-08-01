@@ -30,3 +30,51 @@ footer{
 .MyName{
   font-family: 'Pacifico', cursive;
 }
+.rightdir{
+  float: right;
+}
+.leftdir{
+  float: left;
+}
+
+.centerdiv{
+  margin: auto;
+ 
+ 
+}
+
+/* If the browser window is 600px or smaller, the background color will be lightblue: */
+@media only screen and (max-width: 600px) {
+  body {
+    margin-top: -21px;
+  }
+  .card{
+    margin-bottom: 10px;
+  }
+}
+
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+.card-header{
+  background-color: #2E2EFF;
+  color: white;
+}
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: #2E2EFF !important;
+}
+
+div a{
+  color: #ffffff;
+}
+
+a:hover {
+  color: #0e0b80;
+}
+
+.rightnav{
+  margin-right: 30%;
+}

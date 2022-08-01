@@ -12,7 +12,7 @@ import Blog from './Component/Blog';
 
 function App() {
   return (
-<div class="container py-3">
+<div class="fluid-container">
 <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />

@@ -16,5 +16,4 @@ Here are some ideas to get you started:
 -->
 <p>My name is Akash Badole. I have five years of experience in web development. When I first started out in the IT industry, I built websites with HTML, CSS, Javascript, and PHP. Then I started to learn SEO and digital marketing, skills that are used in companies. Then I started learning about WordPress and Magento. My career began in WordPress. Since then, I've been using WordPress exclusively. I know ReactJS, Python, Django, and Fastapi. basic understanding of cloud technology, including AWS, GCP, and CPanel.</p>
 
-<p>I am technology learner</p>
-<p>For WordPress Project help, please reach out to me.</p>
+

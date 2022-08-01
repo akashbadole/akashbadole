@@ -19,7 +19,7 @@ class Experience extends Component {
                         </h2>
                         <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div className="accordion-body">
-                            <p className='py-2'>October 2020 - April 2021</p>
+                            <p className='py-2'>April 2021 - July 2022</p>
                                 <ul>
                                     <li>Managing company foreign WordPress sites.</li>
                                     <li>Security and Backup implementation</li>

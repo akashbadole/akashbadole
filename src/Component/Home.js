@@ -21,7 +21,7 @@ class Home extends Component {
         Framework:[
             {id:'1',name:'ReactJS'},
             {id:'2',name:'Django'},
-            {id:'1',name:'Fastapi'},
+            {id:'3',name:'Fastapi'},
         ],
         Cloudtechnology:[
             {id:'1',name:'Cpanel'},

@@ -84,3 +84,19 @@ a:hover {
   margin-right: 30%;
 }
 
+
+
+.TextColorChange{
+color: #0e0b80;
+}
+
+.FourStyle{
+  width:800px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.textCenter{
+  margin: 0 auto;
+  text-align: center;
+}

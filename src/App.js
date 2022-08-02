@@ -8,6 +8,7 @@ import Education from './Component/Education';
 import Experience from './Component/Experience';
 import Contact from './Component/Contact';
 import Blog from './Component/Blog';
+import PageNotFound from './Component/PageNotFound';
 
 
 
@@ -16,22 +17,14 @@ function App() {
 <div className="fluid-container">
 <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="Summary" element={<Summary />} />
-      <Route path="Skill" element={<Skill />} />
-      <Route path="Education" element={<Education />} />
-      <Route path="Experience" element={<Experience />} />
-      <Route path="Blog" element={<Blog />} />
-      <Route path="Contact" element={<Contact />} />
-      <Route
-      path="*"
-      element={
-
-        <main style={{ padding: "1rem" }}>
-          <p>There's nothing here!</p>
-        </main>
-      }
-    />
+      <Route exact  path="/" element={<Home  />} />
+      <Route exact  path="Summary" element={<Summary  />} />
+      <Route exact  path="Skill" element={<Skill  />} />
+      <Route exact  path="Education" element={<Education  />} />
+      <Route exact  path="Experience" element={<Experience  />} />
+      <Route exact  path="Blog" element={<Blog  />} />
+      <Route exact  path="Contact" element={<Contact  />} />
+      <Route  path="*" element={<PageNotFound />} />
   
     </Routes>
     

@@ -30,7 +30,7 @@ class Header extends Component {
                                 <Link to="/" className="navbar-brand my-2 rightnav">
                                     Akash S Badole
                                 </Link>
-                                {this.state.links.map(link => {
+                                {this.state.links.map((link) => {
                                     return (
 
                                         <div class="collapse navbar-collapse rightdir" id="navbar_akash" >

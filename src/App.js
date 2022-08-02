@@ -10,9 +10,10 @@ import Contact from './Component/Contact';
 import Blog from './Component/Blog';
 
 
+
 function App() {
   return (
-<div class="fluid-container">
+<div className="fluid-container">
 <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />

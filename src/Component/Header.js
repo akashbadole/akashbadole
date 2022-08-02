@@ -33,10 +33,10 @@ class Header extends Component {
                                 {this.state.links.map((link) => {
                                     return (
 
-                                        <div class="collapse navbar-collapse rightdir" id="navbar_akash" >
-                                             <ul class="navbar-nav me-auto mb-2 mb-lg-0" key={link.id}>
-                                             <li class="nav-item">
-                                             <Link class="nav-link active" aria-current="page" to={link.path}>{link.pathName}</Link>
+                                        <div className="collapse navbar-collapse rightdir" id="navbar_akash" >
+                                             <ul className="navbar-nav me-auto mb-2 mb-lg-0" key={link.id}>
+                                             <li className="nav-item">
+                                             <Link className="nav-link active" aria-current="page" to={link.path}>{link.pathName}</Link>
                                               </li>
                                             </ul>
                                         </div>

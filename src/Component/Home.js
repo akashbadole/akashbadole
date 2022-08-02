@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Intro from "./Intro";
 
+
 class Home extends Component {
 
     state={
@@ -108,6 +109,8 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
+
+
                 <Footer />
             </>
         );

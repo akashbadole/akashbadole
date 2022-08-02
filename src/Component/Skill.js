@@ -35,7 +35,7 @@ class Skill extends Component {
                         <div className="col-md-12 py-3">
                             <h4>Other</h4>
                             <ul>
-                                <li>AWS,GCP - Basic Knowledge, CPanel, DigitalOcean, Zendesk </li>
+                                <li>AWS,GCP - Basic Knowledge, CPanel, DigitalOcean, Zendesk , Git</li>
                             </ul>
                         </div>
                     </div>

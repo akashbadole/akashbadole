@@ -18,6 +18,7 @@ class Blog extends Component {
         alert('submitted Name: ' + this.state.value);
         event.preventDefault();
       }
+
     
   render() {
     return (
@@ -30,6 +31,7 @@ class Blog extends Component {
           </div>
         </div>
         <div className="container py-4">
+            <h4>Assingment 1</h4>
         <form onSubmit={this.handleSubmit}>
         <label>
           Name:
@@ -38,6 +40,9 @@ class Blog extends Component {
         <input type="submit" value="Submit" />
       </form>
         </div>
+
+     
+
 
         <Footer />
       </>

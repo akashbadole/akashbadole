@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<p>My name is Akash Badole. I have five years of experience in web development. When I first started out in the industry, I built websites with HTML, CSS, Javascript, and PHP. Then I started to learn SEO and digital marketing. Then I started learning about WordPress and Magento. I know ReactJS, Python,
+<p>My name is Akash Badole. I have five years of experience in web development. When I first started out in the industry, I built websites with HTML, CSS, Javascript, and PHP. Then I started to learn SEO and digital marketing. I know Wordpress, ReactJS, Python,
 Django. basic understanding of cloud technology, including AWS, GCP, and CPanel.
 </p>
 
